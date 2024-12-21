@@ -11,12 +11,12 @@ const info = [
   {
     icon: <FaPhoneAlt />,
     title: "Phone",
-    description: "+91-7033239572",
+    description: "+91-9430370811",
   },
   {
     icon: <FaEnvelope />,
     title: "Email",
-    description: "rnilesh.job@gmail.com",
+    description: "imnileshkumar06@gmail.com",
   },
   {
     icon: <FaMapMarkerAlt />,
@@ -80,6 +80,7 @@ const Contact = () => {
                     <SelectGroup>
                       <SelectLabel>Select a service</SelectLabel>
                       <SelectItem value="est">Wev Development</SelectItem>
+                      <SelectItem value="mst">Full Stack Developer</SelectItem>
                       <SelectItem value="cst">UI/UX Design</SelectItem>
                       <SelectItem value="mst">Logo Design</SelectItem>
                     </SelectGroup>

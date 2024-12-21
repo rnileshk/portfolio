@@ -23,7 +23,7 @@ export default function Home() {
                 size="lg"
                 className="uppercase flex items-center gap-2"
               >
-                <span>Download CV</span>
+                <span><a href="https://drive.google.com/file/d/1QfqGagpiv-aLt-gFo1axijRUTT2_lZA7/view?usp=drivesdk" rel="">Download CV</a></span>
                 <FiDownload className="text-xl" />
               </Button>
               <div className="mb-8 xl:mb-0">

@@ -82,7 +82,7 @@ const education = {
     {
       institute: "Cambridge Institute of Technology, Ranchi Jharkhand",
       position: "B.Tech (Computer Science & Engineering)",
-      duration: "August 2021 - Present",
+      duration: "August 2021 - July 2025",
     },
     {
       institute: "LP Shahi Intermediate College, Patahi Muzaffarpur Bihar",

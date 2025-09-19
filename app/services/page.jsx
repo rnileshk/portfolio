@@ -24,6 +24,18 @@ const services = [
   },
   {
     num: "04",
+    title: "Node.js Developer",
+    description: "I build scalable and high-performance backend systems using Node.js and Express.js, with strong expertise in designing and integrating RESTful APIs and GraphQL APIs. I work with databases like MongoDB, PostgreSQL, and MySQL, ensuring efficient data management and optimized queries. With knowledge of authentication (JWT, OAuth), middleware, and microservices architecture, I create secure and maintainable server-side applications. I am also experienced in Docker, CI/CD pipelines, and cloud deployment (AWS, GCP, Azure) to deliver production-ready solutions.",
+    href: "",
+  },
+  {
+    num: "5",
+    title: "Java Full-Stack Developer",
+    description: "I specialize in building end-to-end web applications using Java (Spring Boot, Hibernate, JPA) on the backend and modern front-end frameworks like React.js/Angular. My expertise includes developing RESTful APIs, managing databases (MySQL, PostgreSQL, MongoDB), and creating responsive, user-friendly interfaces. With experience in Git, Docker, CI/CD pipelines, and cloud deployment (AWS/Azure), I ensure applications are secure, scalable, and high-performing. I enjoy bridging the gap between front-end design and server-side logic, delivering complete solutions that align with business needs.",
+    href: "",
+  },
+  {
+    num: "06",
     title: "UI/UX Design",
     description: "I create intuitive, user-centered designs that enhance functionality and engagement across digital experiences. With a focus on usability and aesthetic balance, I craft interfaces that are not only visually compelling but also accessible and efficient. My process involves understanding user needs, prototyping, and iterating to achieve designs that prioritize a seamless user journey. From wireframes to high-fidelity designs, I ensure each element aligns with the overall user experience, aiming to create products that are both beautiful and easy to use.",
     href: "",

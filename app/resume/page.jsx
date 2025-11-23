@@ -123,7 +123,7 @@ const skills = {
     { icon: <FaDatabase />, name: "REST APIs" },
 
     // Mobile Development
-    { icon: <FaJava />, name: "Android (Java)" },
+    { icon: <FaJava />, name: "Java" },
     { icon: <SiFirebase />, name: "Firebase" },
 
     // Programming & DSA

@@ -8,6 +8,8 @@ import {
   FaNodeJs,
   FaNode,
 } from "react-icons/fa";
+import { FaPython, FaJava, FaGitAlt, FaGithub, FaFigma, FaDatabase } from "react-icons/fa";
+import { SiMongodb, SiExpress, SiFirebase, SiPostgresql, SiC, SiCplusplus } from "react-icons/si";
 
 import { SiTailwindcss, SiNextdotjs } from "react-icons/si";
 
@@ -102,33 +104,38 @@ const skills = {
   description: "I bring a diverse skill set spanning frontend development, UI/UX design, and modern web frameworks. Proficient in React and Next.js, I build scalable, interactive applications with a focus on performance and code efficiency. My UI/UX design expertise enables me to craft intuitive, user-centered interfaces that enhance engagement and usability. I’m experienced with HTML, CSS, and JavaScript, and follow best practices in responsive design and accessibility to ensure consistent, high-quality user experiences. Additionally, I have a strong understanding of Git, RESTful APIs, and state management libraries, making me well-rounded in both the technical and creative aspects of web development.",
   skillList: [
     {
-      icon: <FaHtml5 />,
-      name: "HTML 5",
-    },
-    {
-      icon: <FaCss3 />,
-      name: "CSS 3",
-    },
-    {
-      icon: <FaJs />,
-      name: "JavaScript",
-    },
-    {
-      icon: <FaReact />,
-      name: "React.js",
-    },
-    {
-      icon: <SiTailwindcss />,
-      name: "Tailwind.css",
-    },
-    {
       icon: <FaNodeJs />,
       name: "Node.js",
     },
-    {
-      icon: <SiNextdotjs />,
-      name: "Next.js",
-    },
+    // Frontend
+    { icon: <FaHtml5 />, name: "HTML 5" },
+    { icon: <FaCss3 />, name: "CSS 3" },
+    { icon: <FaJs />, name: "JavaScript" },
+    { icon: <FaReact />, name: "React.js" },
+    { icon: <SiNextdotjs />, name: "Next.js" },
+    { icon: <SiTailwindcss />, name: "Tailwind CSS" },
+
+    // Backend
+    { icon: <FaNodeJs />, name: "Node.js" },
+    { icon: <SiExpress />, name: "Express.js" },
+    { icon: <SiMongodb />, name: "MongoDB" },
+    { icon: <SiPostgresql />, name: "PostgreSQL" },
+    { icon: <FaDatabase />, name: "REST APIs" },
+
+    // Mobile Development
+    { icon: <FaJava />, name: "Android (Java)" },
+    { icon: <SiFirebase />, name: "Firebase" },
+
+    // Programming & DSA
+    { icon: <FaPython />, name: "Python" },
+    { icon: <SiC />, name: "C" },
+    { icon: <SiCplusplus />, name: "C++" },
+    { icon: <FaJs />, name: "DSA (Data Structures & Algorithms)" },
+
+    // UI/UX & Tools
+    { icon: <FaFigma />, name: "Figma (UI/UX Design)" },
+    { icon: <FaGitAlt />, name: "Git" },
+    { icon: <FaGithub />, name: "GitHub" },
   ],
 };
 
